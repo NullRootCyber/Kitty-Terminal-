@@ -1,0 +1,93 @@
+//   _____ _____ _____ _____ _____ _____ _____ _____ _____ 
+//  |   __|  _  |   __|_   _|   __|   __|_   _|     |  |  |
+//  |   __|     |__   | | | |   __|   __| | | |   --|     |
+//  |__|  |__|__|_____| |_| |__|  |_____| |_| |_____|__|__|  
+//                NYARCH - Extended
+//
+//  by NullRoot 
+
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+  "logo": {
+    "source": "/home/nullroot/.config/fastfetch/boa.png",
+    "type": "kitty",
+    "height": 18,
+    "padding": {
+      "top": 1
+    }
+  },
+
+  "modules": [
+    "break",
+    {
+      "type": "title",
+      "keyWidth": 20,
+      "keyColor": "45"
+    },
+    {
+      "type": "os",
+      "key": "  OS        ",
+      "keyColor": "32"
+    },
+    {
+      "type": "kernel",
+      "key": "  Kernel    ",
+      "keyColor": "32"
+    },
+    {
+      "type": "uptime",
+      "key": "󱎫  Uptime    ",
+      "keyColor": "32"
+    },
+    "break",
+    {
+      "type": "packages",
+      "format": "{} (pacman)",
+      "key": "󰏓  Packages ",
+      "keyColor": "33"
+    },
+    {
+      "type": "shell",
+      "key": "  Shell     ",
+      "keyColor": "33"
+    },
+    {
+      "type": "terminal",
+      "key": "  Terminal  ",
+      "keyColor": "33"
+    },
+    "break",
+    {
+      "type": "memory",
+      "key": "  Memory    ",
+      "keyColor": "33"
+    },
+    {
+      "type": "swap",
+      "key": "󰓡  Swap      ",
+      "keyColor": "33"
+    },
+    "break",
+    {
+      "type": "publicip",
+      "key": "󰌘  Public IP ",
+      "keyColor": "36"
+    },
+    "break",
+    {
+      "type": "player",
+      "key": "  Player    ",
+      "keyColor": "35"
+    },
+    {
+      "type": "media",
+      "key": "󰝚  Media     ",
+      "keyColor": "35"
+    },
+    "break"
+  ]
+}
+
+
+
